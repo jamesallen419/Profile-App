@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "eFoCfKbBqZdWhLTry1xNjYYdfNT2": {
+      "type": "object",
+      "properties": {
+        "animal": { "type": "string" },
+        "food": { "type": "string" },
+        "image": { "type": "string", "format": "uri" },
+        "name": { "type": "string" },
+        "starsign": { "type": "string" }
+      },
+      "required": ["animal", "food", "image", "name", "starsign"]
+    },
+    "highScore": { "type": "integer" },
+    "j3nyWYN5JnettqRdZjBLPP3rfLO2": {
+      "type": "object",
+      "properties": {
+        "animal": { "type": "string" },
+        "food": { "type": "string" },
+        "image": { "type": "string", "format": "uri" },
+        "name": { "type": "string" },
+        "starsign": { "type": "string" }
+      },
+      "required": ["animal", "food", "image", "name", "starsign"]
+    }
+  },
+  "required": ["eFoCfKbBqZdWhLTry1xNjYYdfNT2", "highScore", "j3nyWYN5JnettqRdZjBLPP3rfLO2"]
+}
