@@ -58,6 +58,89 @@
     },
     "children": [
         {
+            "type": "AdMobBanner",
+            "label": "AdMob Banner",
+            "translatedName": "AdMob Banner",
+            "properties": {
+                "Visible": true,
+                "AdUnitID": "ca-app-pub-3940256099942544/6300978111",
+                "AdUnitID_iOS": "ca-app-pub-3940256099942544/6300978111",
+                "TestMode": true,
+                "Width": 375,
+                "Height": 32,
+                "X": 0,
+                "ParentId": "88032812-4c15-4cd2-b61c-85c3a8fb0107",
+                "Y": 633,
+                "RelativeX": 0,
+                "RelativeY": 633,
+                "position": "absolute",
+                "edgeOffsets": 633,
+                "style": {
+                    "position": "absolute",
+                    "left": "14.666666666666666%",
+                    "top": "87.35944527736132%",
+                    "display": "flex"
+                }
+            },
+            "children": [],
+            "id": "7dc07201-d851-4138-b1fe-62a7820e88ce",
+            "thunkableVersion": 423,
+            "name": "AdMob_Banner1"
+        },
+        {
+            "type": "Button",
+            "translatedName": "Button",
+            "properties": {
+                "Text": "...",
+                "TextColor": "#FFFFFF",
+                "FontSize": 16,
+                "CustomFont": "",
+                "BackgroundColor": "rgba(93, 122, 252, 100)",
+                "Height": 30,
+                "Width": 30,
+                "Visible": true,
+                "X": 313,
+                "Y": 15,
+                "RelativeX": 313,
+                "RelativeY": 15,
+                "ResizeMode": "STRETCH",
+                "style": {
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "borderRadius": 15,
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
+                    "position": "absolute",
+                    "left": "25.199995930989584%",
+                    "top": "36.725393406812216%",
+                    "display": "flex"
+                },
+                "FontBold": false,
+                "FontItalic": false,
+                "Raised": false,
+                "Disabled": false,
+                "ParentId": "88032812-4c15-4cd2-b61c-85c3a8fb0107",
+                "position": "absolute",
+                "edgeOffsets": 55
+            },
+            "children": [],
+            "id": "9b11446a-f403-43ad-a80c-16a8b60072bd",
+            "thunkableVersion": 422,
+            "name": "expand_button_profile"
+        },
+        {
             "type": "Image",
             "translatedName": "Image",
             "properties": {
